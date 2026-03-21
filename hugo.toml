@@ -1,0 +1,46 @@
+baseURL = 'https://example.com/'
+title = 'Название сайта'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+metaDataFormat = "yaml"
+summaryLength = 30
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  title = "Название сайта"
+  description = "Описание сайта"
+  
+  homeInfoParams = { Title = "Заголовок на главной", Content = "Текст на главной" }
+
+  defaultTheme = 'auto'
+  ShowShareButtons = true
+  ShowReadingTime = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  author = "Имя автора"
+  authorEmail = "email@example.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "О нас"
+    url = "/about/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "blog"
+    name = "Блог"
+    url = "/blog/"
+    weight = 20
+
+[languages]
+  [languages.ru]
+    languageCode = 'ru-ru'
+    languageName = 'Русский'
+    weight = 1
+    title = "Название сайта"
