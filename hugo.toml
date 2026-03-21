@@ -1,4 +1,5 @@
 baseURL = 'https://example.com/'
+googleAnalytics = ""
 defaultContentLanguage = "ru"
 title = 'Название сайта'
 theme = 'PaperMod'
