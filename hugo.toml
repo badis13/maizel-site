@@ -1,38 +1,20 @@
-baseURL = 'https://maizelsergey.ru/'   # замените на реальный домен после привязки
-googleAnalytics = ""
-defaultContentLanguage = "ru"
+baseURL = 'https://maizelsergey.ru/'
 title = 'Майзель Сергей Гершевич | Прикладная биология молока'
 theme = 'PaperMod'
 
 enableRobotsTXT = true
-enableEmoji = true
-footnotereturnlinkcontents = "↩"
 metaDataFormat = "yaml"
 summaryLength = 30
 
 [pagination]
   pagerSize = 10
 
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 1.0
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
 [params]
   title = "Майзель Сергей Гершевич"
-  description = "Предприниматель и исследователь в области прикладной биологии молока. Микробиология, технологии производства, научные разработки."
-  keywords = ["Майзель Сергей", "прикладная биология молока", "микробиология молока", "технологии производства молока", "научные исследования", "молочная промышленность"]
+  description = "Предприниматель и исследователь в области прикладной биологии молока и молочных продуктов. Исследования, микробиология, технологии производства."
+  
+  homeInfoParams = { Title = "Майзель Сергей Гершевич", Content = "**Предприниматель и исследователь** в области прикладной биологии молока и молочных продуктов. Разработка научно-обоснованных решений для молочной отрасли." }
 
-  homeInfoParams = { 
-    Title = "Майзель Сергей Гершевич", 
-    Content = "**Предприниматель и исследователь** в области прикладной биологии молока и молочных продуктов. Разработка научно-обоснованных решений для молочной отрасли."
-  }
-
-  images = ["/images/og-image.jpg"]  # для соцсетей
   defaultTheme = 'auto'
   ShowShareButtons = true
   ShowReadingTime = false
@@ -41,10 +23,10 @@ summaryLength = 30
   ShowCodeCopyButtons = true
   
   author = "Сергей Гершевич Майзель"
-  authorEmail = "s.maizel@example.com"   # замените на реальный email
-
-  # Если вы используете кастомный шаблон главной, раскомментируйте:
-  # homeProfilePartial = "home/home_info.html"
+  authorEmail = "s.maizel@example.com"
+  
+  images = ["/images/og-image.jpg"]
+  defaultImage = "/images/og-image.jpg"
 
 [menu]
   [[menu.main]]
@@ -70,6 +52,12 @@ summaryLength = 30
     name = "Научный блог"
     url = "/blog/"
     weight = 30
+  
+  [[menu.main]]
+    identifier = "projects"
+    name = "Проекты"
+    url = "/projects/"
+    weight = 35
   
   [[menu.main]]
     identifier = "contact"
