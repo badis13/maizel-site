@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Майзель Сергей Гершевич | Прикладная биология молока</title>
-    <link>http://localhost:1313/</link>
+    <link>https://maizelsergey.ru/</link>
     <description>Recent content on Майзель Сергей Гершевич | Прикладная биология молока</description>
     <image>
       <title>Майзель Сергей Гершевич | Прикладная биология молока</title>
-      <url>http://localhost:1313/images/og-image.jpg</url>
-      <link>http://localhost:1313/images/og-image.jpg</link>
+      <url>https://maizelsergey.ru/images/og-image.jpg</url>
+      <link>https://maizelsergey.ru/images/og-image.jpg</link>
     </image>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maizelsergey.ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Биология молока</title>
-      <link>http://localhost:1313/blog/2026-03-26-novye-issledovaniya-moloka/</link>
+      <link>https://maizelsergey.ru/blog/2026-03-26-novye-issledovaniya-moloka/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2026-03-26-novye-issledovaniya-moloka/</guid>
+      <guid>https://maizelsergey.ru/blog/2026-03-26-novye-issledovaniya-moloka/</guid>
       <description>В этой статье я описываю методику производства молока</description>
     </item>
     <item>
       <title>Контакты Майзеля Сергея Гершевича | Прикладная биология молока</title>
-      <link>http://localhost:1313/contact/contact/</link>
+      <link>https://maizelsergey.ru/contact/contact/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/contact/</guid>
+      <guid>https://maizelsergey.ru/contact/contact/</guid>
       <description>Связь с исследователем в области прикладной биологии молока. Электронная почта, Telegram, Дзен, ВКонтакте, LiveJournal для научных коллабораций и консультаций.</description>
     </item>
     <item>
       <title>Питание с молоком</title>
-      <link>http://localhost:1313/blog/2026-03-27-novye-issledovaniya-moloka/</link>
+      <link>https://maizelsergey.ru/blog/2026-03-27-novye-issledovaniya-moloka/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2026-03-27-novye-issledovaniya-moloka/</guid>
+      <guid>https://maizelsergey.ru/blog/2026-03-27-novye-issledovaniya-moloka/</guid>
       <description>В этой статье я описываю методику производства молока</description>
     </item>
   </channel>
