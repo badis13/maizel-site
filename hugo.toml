@@ -1,6 +1,8 @@
+defaultContentLanguage = "ru"
 baseURL = 'https://maizelsergey.ru/'
 title = 'Майзель Сергей Гершевич | Прикладная биология молока'
 theme = 'PaperMod'
+googleAnalytics = ""
 
 enableRobotsTXT = true
 metaDataFormat = "yaml"
