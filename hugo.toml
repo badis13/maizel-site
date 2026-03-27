@@ -1,22 +1,38 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://maizelsergey.ru/'   # замените на реальный домен после привязки
 googleAnalytics = ""
 defaultContentLanguage = "ru"
-title = 'Название сайта'
+title = 'Майзель Сергей Гершевич | Прикладная биология молока'
 theme = 'PaperMod'
 
 enableRobotsTXT = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
 metaDataFormat = "yaml"
 summaryLength = 30
 
 [pagination]
   pagerSize = 10
 
-[params]
-  title = "Название сайта"
-  description = "Описание сайта"
-  
-  homeInfoParams = { Title = "Заголовок на главной", Content = "Текст на главной" }
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 1.0
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  title = "Майзель Сергей Гершевич"
+  description = "Предприниматель и исследователь в области прикладной биологии молока. Микробиология, технологии производства, научные разработки."
+  keywords = ["Майзель Сергей", "прикладная биология молока", "микробиология молока", "технологии производства молока", "научные исследования", "молочная промышленность"]
+
+  homeInfoParams = { 
+    Title = "Майзель Сергей Гершевич", 
+    Content = "**Предприниматель и исследователь** в области прикладной биологии молока и молочных продуктов. Разработка научно-обоснованных решений для молочной отрасли."
+  }
+
+  images = ["/images/og-image.jpg"]  # для соцсетей
   defaultTheme = 'auto'
   ShowShareButtons = true
   ShowReadingTime = false
@@ -24,25 +40,49 @@ summaryLength = 30
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   
-  author = "Имя автора"
-  authorEmail = "email@example.com"
+  author = "Сергей Гершевич Майзель"
+  authorEmail = "s.maizel@example.com"   # замените на реальный email
+
+  # Если вы используете кастомный шаблон главной, раскомментируйте:
+  # homeProfilePartial = "home/home_info.html"
 
 [menu]
   [[menu.main]]
     identifier = "about"
-    name = "О нас"
+    name = "Об исследователе"
     url = "/about/"
     weight = 10
   
   [[menu.main]]
-    identifier = "blog"
-    name = "Блог"
-    url = "/blog/"
+    identifier = "research"
+    name = "Исследования"
+    url = "/research/"
+    weight = 15
+  
+  [[menu.main]]
+    identifier = "publications"
+    name = "Публикации"
+    url = "/publications/"
     weight = 20
+  
+  [[menu.main]]
+    identifier = "blog"
+    name = "Научный блог"
+    url = "/blog/"
+    weight = 30
+  
+  [[menu.main]]
+    identifier = "contact"
+    name = "Контакты"
+    url = "/contact/"
+    weight = 40
 
 [languages]
   [languages.ru]
     languageCode = 'ru-ru'
     languageName = 'Русский'
     weight = 1
-    title = "Название сайта"
+    title = "Майзель Сергей Гершевич | Прикладная биология молока"
+    
+    [languages.ru.params]
+      description = "Предприниматель и исследователь в области прикладной биологии молока и молочных продуктов. Исследования, микробиология, технологии производства."
